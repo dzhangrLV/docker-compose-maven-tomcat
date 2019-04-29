@@ -27,6 +27,7 @@ ENV MYMAVEN /usr/src/mymaven
 VOLUME "$USER_HOME_DIR/.m2"
 RUN mkdir -p "$MYMAVEN"
 WORKDIR $MYMAVEN
+RUN chmod -R +rX .
 RUN git clone "https://github.com/boxfuse/boxfuse-sample-java-war-hello"
 
 ADD entrypointscript.sh /usr/src/mymaven/
