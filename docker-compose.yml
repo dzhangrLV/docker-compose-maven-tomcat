@@ -3,7 +3,7 @@ services:
   maven:
       build:
         context: dockerfiles
-        dockerfile: dockerfile-maven
+        dockerfile: dockerfiles/dockerfile-maven
       volumes:
         - ~/.m2:/root/.m2
         - $PWD:/usr/src/mavenprojects
@@ -13,6 +13,6 @@ services:
   tomcat:
     build:
       context: dockerfiles
-      dockerfile: dockerfile-tomcat
+      dockerfile: dockerfiles/dockerfile-tomcat
     ports:
       - "8080:8080"
