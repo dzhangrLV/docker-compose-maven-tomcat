@@ -22,15 +22,16 @@ RUN mkdir -p /usr/share/maven /usr/share/maven/ref \
 
 ENV MAVEN_HOME /usr/share/maven
 ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
-ENV MYMAVEN /usr/src/mymaven
+#ENV MYMAVEN /usr/src/mymaven
 
 VOLUME "$USER_HOME_DIR/.m2"
-RUN mkdir -p "$MYMAVEN"
-WORKDIR $MYMAVEN
-RUN chmod -R 777 $MYMAVEN
+#RUN mkdir -p "$MYMAVEN"
+WORKDIR /usr/local/bin
+#RUN chmod -R 777 $MYMAVEN
+ADD entrypointscript.sh /usr/local/bin/entrypointscript.sh
 RUN git clone "https://github.com/boxfuse/boxfuse-sample-java-war-hello"
 
-ADD entrypointscript.sh /usr/src/mymaven/
+
 #COPY settings-docker.xml /usr/share/maven/ref/
 
-ENTRYPOINT ["/usr/src/mymaven/entrypointscript.sh"]
+ENTRYPOINT ["/usr/local/bin/entrypointscript.sh"]
