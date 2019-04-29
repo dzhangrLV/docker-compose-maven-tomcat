@@ -1,18 +1,20 @@
 version: '2'
 services:
   maven:
-      build:
-        context: dockerfiles
-        dockerfile: Dockerfile-maven
-      volumes:
-        - ~/.m2:/root/.m2
-        - $PWD:/usr/src/mavenprojects
-      volumes_from:
-        - tomcat
-      network_mode: bridge
+    build:
+      context: dockerfiles
+      dockerfile: Dockerfile-maven
+    volumes:
+      - ~/.m2:/root/.m2
+      - $PWD:/usr/local/bin/
+    volumes_from:
+      - tomcat
+    network_mode: bridge
   tomcat:
     build:
       context: dockerfiles
       dockerfile: Dockerfile-tomcat
+    volumes:
+      - /usr/local/tomcat/webapps
     ports:
       - "8080:8080"
