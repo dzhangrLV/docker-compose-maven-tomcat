@@ -24,10 +24,10 @@ ENV MAVEN_HOME /usr/share/maven
 ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 
 VOLUME "$USER_HOME_DIR/.m2"
-WORKDIR /usr/src/mavenprojects
+WORKDIR /usr/src/mymaven
 RUN git clone "https://github.com/boxfuse/boxfuse-sample-java-war-hello"
 
 #COPY mvn-entrypoint.sh /usr/local/bin/mvn-entrypoint.sh
 #COPY settings-docker.xml /usr/share/maven/ref/
 
-ENTRYPOINT ["/usr/src/mavenprojects/entrypointscript.sh"]
+ENTRYPOINT ["/usr/src/mymaven/entrypointscript.sh"]
