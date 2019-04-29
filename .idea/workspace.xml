@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dockerfiles/Dockerfile-maven">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="465">
+              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dockerfiles/entrypointscript.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="115" lean-forward="true" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -56,8 +56,8 @@
         <option value="$PROJECT_DIR$/Dockerfiles/Dockerfile-maven" />
         <option value="$PROJECT_DIR$/Dockerfiles/entrypointscript.sh" />
         <option value="$PROJECT_DIR$/Dockerfiles/Dockerfile-tomcat" />
-        <option value="$PROJECT_DIR$/dockerfiles/entrypointscript.sh" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/dockerfiles/entrypointscript.sh" />
         <option value="$PROJECT_DIR$/dockerfiles/Dockerfile-maven" />
       </list>
     </option>
@@ -125,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556542114252</updated>
-      <workItem from="1556542115376" duration="7034000" />
+      <workItem from="1556542115376" duration="7620000" />
     </task>
     <task id="LOCAL-00001" summary="add docker-compose and dockerfiles for maven &amp; tomcat">
       <created>1556545034619</created>
@@ -204,11 +204,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556548489373</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="up version 11">
+      <created>1556549505095</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556549505095</updated>
+    </task>
+    <task id="LOCAL-00013" summary="up version 12">
+      <created>1556549758394</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1556549758394</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7034000" />
+    <option name="totallyTimeSpent" value="7620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="294" width="1922" height="1052" extended-state="6" />
@@ -254,7 +268,9 @@
     <MESSAGE value="up version 8" />
     <MESSAGE value="up version 9" />
     <MESSAGE value="up version 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="up version 10" />
+    <MESSAGE value="up version 11" />
+    <MESSAGE value="up version 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="up version 12" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Dockerfiles/Dockerfile-maven">
@@ -281,13 +297,6 @@
     <entry file="file://$PROJECT_DIR$/dockerfiles/Dockerfile-tomcat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerfiles/entrypointscript.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="115" lean-forward="true" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -295,10 +304,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dockerfiles/entrypointscript.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dockerfiles/Dockerfile-maven">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="465">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
         </state>
       </provider>
     </entry>
