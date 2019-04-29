@@ -1,9 +1,9 @@
 FROM debian:latest
 MAINTAINER Leonid Gorshkov <dzhangr.lv@gmail.com>
 
-ENV BOXFUSE /tmp/boxfuse/
-RUN mkdir -p "$BOXFUSE"
-WORKDIR $BOXFUSE
+#ENV BOXFUSE /tmp/boxfuse/
+#RUN mkdir -p "$BOXFUSE"
+#WORKDIR $BOXFUSE
 
 ARG MAVEN_VERSION=3.6.1
 ARG USER_HOME_DIR="/root"
