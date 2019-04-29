@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1515083-3e5a-4997-a79f-0b7007c13c43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerfiles/Dockerfile-maven" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfiles/Dockerfile-maven" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dockerfiles/Dockerfile-maven">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dockerfiles/entrypointscript.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="30">
+              <caret line="2" column="113" lean-forward="true" selection-start-line="2" selection-start-column="113" selection-end-line="2" selection-end-column="113" />
             </state>
           </provider>
         </entry>
@@ -63,8 +62,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="295" />
-    <option name="y" value="314" />
+    <option name="x" value="2332" />
+    <option name="y" value="108" />
     <option name="width" value="1384" />
     <option name="height" value="998" />
   </component>
@@ -125,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556542114252</updated>
-      <workItem from="1556542115376" duration="7620000" />
+      <workItem from="1556542115376" duration="8141000" />
     </task>
     <task id="LOCAL-00001" summary="add docker-compose and dockerfiles for maven &amp; tomcat">
       <created>1556545034619</created>
@@ -218,14 +217,28 @@
       <option name="project" value="LOCAL" />
       <updated>1556549758394</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="up version 13">
+      <created>1556549966534</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1556549966534</updated>
+    </task>
+    <task id="LOCAL-00015" summary="stupid mistake">
+      <created>1556550205876</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1556550205876</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7620000" />
+    <option name="totallyTimeSpent" value="8141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="294" width="1922" height="1052" extended-state="6" />
+    <frame x="1919" y="0" width="1922" height="1081" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -270,7 +283,9 @@
     <MESSAGE value="up version 10" />
     <MESSAGE value="up version 11" />
     <MESSAGE value="up version 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="up version 12" />
+    <MESSAGE value="up version 13" />
+    <MESSAGE value="stupid mistake" />
+    <option name="LAST_COMMIT_MESSAGE" value="stupid mistake" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Dockerfiles/Dockerfile-maven">
@@ -304,17 +319,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerfiles/entrypointscript.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dockerfiles/Dockerfile-maven">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerfiles/entrypointscript.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="113" lean-forward="true" selection-start-line="2" selection-start-column="113" selection-end-line="2" selection-end-column="113" />
         </state>
       </provider>
     </entry>
