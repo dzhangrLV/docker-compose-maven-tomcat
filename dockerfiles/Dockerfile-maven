@@ -27,7 +27,7 @@ VOLUME "$USER_HOME_DIR/.m2"
 WORKDIR /usr/src/mymaven
 RUN git clone "https://github.com/boxfuse/boxfuse-sample-java-war-hello"
 
-#COPY mvn-entrypoint.sh /usr/local/bin/mvn-entrypoint.sh
+COPY entrypointscript.sh /usr/src/mymaven/entrypointscript.sh
 #COPY settings-docker.xml /usr/share/maven/ref/
 
 ENTRYPOINT ["/usr/src/mymaven/entrypointscript.sh"]
