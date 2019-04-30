@@ -1,17 +1,13 @@
 version: '2'
 services:
   maven:
-    build:
-      context: dockerfiles
-      dockerfile: Dockerfile-maven
+    image: dzhangrlv/docker-compose-maven:1.0
     volumes:
       - ~/.m2:/root/.m2
     volumes_from:
       - tomcat
     network_mode: bridge
   tomcat:
-    build:
-      context: dockerfiles
-      dockerfile: Dockerfile-tomcat
+    image: dzhangrlv/docker-compose-tomcat:1.0
     ports:
       - "8080:8080"
