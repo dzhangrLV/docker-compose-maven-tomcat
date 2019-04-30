@@ -1,7 +1,7 @@
-FROM openjdk:8-jdk-alpine
+FROM alpine:3.7
 MAINTAINER Leonid Gorshkov <dzhangr.lv@gmail.com>
 
-RUN apk add --no-cache git curl tar bash procps
+RUN apk add --no-cache git curl tar bash procps default-jdk
 
 ARG MAVEN_VERSION=3.6.1
 ARG USER_HOME_DIR="/root"
